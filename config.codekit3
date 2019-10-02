@@ -93,6 +93,19 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/scss/all-resets-combined/_all-resets-combined.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_all-resets-combined.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		}
 	},
 "hooks": [
