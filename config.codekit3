@@ -25,6 +25,27 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/_ignores/project-icon.png": {
+		"ft": 32768,
+		"iS": 14067,
+		"oA": 1,
+		"oAP": "/_ignores/project-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/css/all-resets-combined.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/all-resets-combined-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -66,8 +87,8 @@
 	"creationDate": 591719388.88346696,
 	"displayValue": "css-resets",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-peach",
-	"iconImageWasSetByUser": 0
+	"iconImageName": "/_ignores/project-icon.png",
+	"iconImageWasSetByUser": 1
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
