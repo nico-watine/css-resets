@@ -81,7 +81,7 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/scss/all-resets-combined/_alligator-io.scss": {
+	"/scss/stock-resets/_alligator-io.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -94,7 +94,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_bootstrap-reboot.scss": {
+	"/scss/stock-resets/_bootstrap-reboot.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -107,7 +107,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_destyle.scss": {
+	"/scss/stock-resets/_destyle.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -120,7 +120,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_formalize.scss": {
+	"/scss/stock-resets/_formalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -133,7 +133,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_h5bp-main-reset.scss": {
+	"/scss/stock-resets/_h5bp-main-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -146,7 +146,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_html5-reset.scss": {
+	"/scss/stock-resets/_html5-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -159,7 +159,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_html5doctor.scss": {
+	"/scss/stock-resets/_html5doctor.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -172,7 +172,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_marx.scss": {
+	"/scss/stock-resets/_marx.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -185,7 +185,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_meyer-reset.scss": {
+	"/scss/stock-resets/_meyer-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -198,7 +198,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_minireset.scss": {
+	"/scss/stock-resets/_minireset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -211,7 +211,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_normalize.scss": {
+	"/scss/stock-resets/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -224,7 +224,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_sanitize.scss": {
+	"/scss/stock-resets/_sanitize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -237,7 +237,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_tripoli.scss": {
+	"/scss/stock-resets/_tripoli.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -250,7 +250,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_typeset.scss": {
+	"/scss/stock-resets/_typeset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -263,7 +263,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_undohtmlcss.scss": {
+	"/scss/stock-resets/_undohtmlcss.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -276,7 +276,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_vanilla-reset.scss": {
+	"/scss/stock-resets/_vanilla-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -289,7 +289,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_yui-reset.scss": {
+	"/scss/stock-resets/_yui-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -302,7 +302,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/_zellwk-css-reset.scss": {
+	"/scss/stock-resets/_zellwk-css-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -315,7 +315,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/all-resets-combined/all-resets-combined.scss": {
+	"/scss/stock-resets/all-resets-combined.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
