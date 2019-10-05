@@ -41,6 +41,14 @@
 		"oAP": "/_ignores/css-resets.sublime-workspace",
 		"oF": 0
 		},
+	"/_ignores/html-tags.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/html-tags.html",
+		"oF": 0
+		},
 	"/_ignores/project-icon.png": {
 		"ft": 32768,
 		"iS": 14067,
@@ -52,13 +60,13 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/css/all-resets-combined.css": {
+	"/css/all-stock-resets.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/all-resets-combined-min.css",
+		"oAP": "/css/all-stock-resets-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -81,7 +89,7 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/scss/stock-resets/_alligator-io.scss": {
+	"/scss/all-stock-resets/_alligator-io.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -94,7 +102,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_bootstrap-reboot.scss": {
+	"/scss/all-stock-resets/_bootstrap-reboot.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -107,7 +115,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_destyle.scss": {
+	"/scss/all-stock-resets/_destyle.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -120,7 +128,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_formalize.scss": {
+	"/scss/all-stock-resets/_formalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -133,7 +141,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_h5bp-main-reset.scss": {
+	"/scss/all-stock-resets/_h5bp-main-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -146,7 +154,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_html5-reset.scss": {
+	"/scss/all-stock-resets/_html5-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -159,7 +167,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_html5doctor.scss": {
+	"/scss/all-stock-resets/_html5doctor.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -172,7 +180,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_marx.scss": {
+	"/scss/all-stock-resets/_marx.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -185,7 +193,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_meyer-reset-mod.scss": {
+	"/scss/all-stock-resets/_meyer-reset-mod.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -198,7 +206,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_meyer-reset.scss": {
+	"/scss/all-stock-resets/_meyer-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -211,7 +219,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_minireset.scss": {
+	"/scss/all-stock-resets/_minireset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -224,7 +232,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_normalize.scss": {
+	"/scss/all-stock-resets/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -237,7 +245,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_sanitize.scss": {
+	"/scss/all-stock-resets/_sanitize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -250,7 +258,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_tripoli.scss": {
+	"/scss/all-stock-resets/_tripoli.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -263,7 +271,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_typeset.scss": {
+	"/scss/all-stock-resets/_typeset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -276,7 +284,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_undohtmlcss.scss": {
+	"/scss/all-stock-resets/_undohtmlcss.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -289,7 +297,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_vanilla-reset.scss": {
+	"/scss/all-stock-resets/_vanilla-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -302,7 +310,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_yui-reset.scss": {
+	"/scss/all-stock-resets/_yui-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -315,7 +323,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/_zellwk-css-reset.scss": {
+	"/scss/all-stock-resets/_zellwk-css-reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -328,7 +336,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/stock-resets/all-resets-combined.scss": {
+	"/scss/all-stock-resets/all-stock-resets.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -336,7 +344,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/all-resets-combined.css",
+		"oAP": "/css/all-stock-resets.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
