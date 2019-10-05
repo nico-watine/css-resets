@@ -41,6 +41,14 @@
 		"oAP": "/_ignores/css-resets.sublime-workspace",
 		"oF": 0
 		},
+	"/_ignores/html-tags.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_ignores/html-tags.html",
+		"oF": 0
+		},
 	"/_ignores/project-icon.png": {
 		"ft": 32768,
 		"iS": 14067,
