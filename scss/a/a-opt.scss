@@ -2,83 +2,33 @@ a {
 	/* bootstrap-reboot.css */
 	color: #007bff;
 	text-decoration: none;
-	background-color: transparent; /* Remove the gray background on active links in IE 10. */
-
-	/* destyle.css */
-	background-color: transparent;
-	text-decoration: none;
-	color: inherit;
-
-	/* formalize.css */
-	border: 0;
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-
-	/* HTML5 Reset v2.1.7 */
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-
-	/* html5doctor.com Reset */
-	margin: 0;
-	padding: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-
-	/* sanitize.css v7.0.3 */
-	background-color: transparent; /* Remove the gray background on active links in IE 10. */
-	-ms-touch-action: manipulation; /* Remove the tapping delay in IE 10. */
-	    touch-action: manipulation; /* Remove the tapping delay on clickable elements in all browsers (opinionated). */
-
-	/* marx.css */
-	color: #007bff;
-	text-decoration: none;
-	background-color: transparent;
-
-	/* meyerreset */
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-
-	/* meyerreset */
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 
 	/* normalize */
 	background-color: transparent; /* Remove the gray background on active links in IE 10. */
 
-	/* sanitize.css */
-	-webkit-tap-highlight-color: transparent; /* Remove the grey highlight on links in iOS (opinionated). */
-
-	/* tripoli */
-	border: none;
-	color: inherit;
+	/* meyerreset */
 	margin: 0;
 	padding: 0;
-	text-decoration: none;
-	font-size: 1em;
-	outline: none;
-
-	/* typeset.css */
-	background: transparent;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	line-height: 1.0;
-	margin: 0;
-	padding: 0;
 	vertical-align: baseline;
+
+	/* tripoli */
+	outline: none;
+
+	/* html5doctor.com Reset */
+	background: transparent;
+
+	/* sanitize.css v7.0.3 */
+	-ms-touch-action: manipulation; /* Remove the tapping delay in IE 10. */
+	    touch-action: manipulation; /* Remove the tapping delay on clickable elements in all browsers (opinionated). */
+
+	/* sanitize.css */
+	-webkit-tap-highlight-color: transparent; /* Remove the grey highlight on links in iOS (opinionated). */
+
+	/* typeset.css */
+	line-height: 1.0;
 	text-decoration: underline;
 }
 
