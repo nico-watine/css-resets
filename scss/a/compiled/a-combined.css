@@ -2,7 +2,8 @@
 a {
   color: #007bff;
   text-decoration: none;
-  background-color: transparent; }
+  background-color: transparent;
+  /* Remove the gray background on active links in IE 10. */ }
 
 a:hover {
   color: #0056b3;
