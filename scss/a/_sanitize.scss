@@ -20,9 +20,9 @@ html {
 	cursor: default; /* 1 */
 	line-height: 1.5; /* 2 */
 	-moz-tab-size: 4; /* 3 */
-		 tab-size: 4; /* 3 */
+	     tab-size: 4; /* 3 */
 	-webkit-tap-highlight-color: transparent /* 4 */;
-		-ms-text-size-adjust: 100%; /* 5 */
+	    -ms-text-size-adjust: 100%; /* 5 */
 	-webkit-text-size-adjust: 100%; /* 5 */
 	word-break: break-word; /* 6 */
 }
@@ -50,5 +50,5 @@ a {
 a,
 [tabindex] {
 	-ms-touch-action: manipulation; /* 1 */
-			touch-action: manipulation; /* 2 */
+	    touch-action: manipulation; /* 2 */
 }

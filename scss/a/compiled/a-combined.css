@@ -4,10 +4,9 @@ a {
   text-decoration: none;
   background-color: transparent;
   /* Remove the gray background on active links in IE 10. */ }
-
-a:hover {
-  color: #0056b3;
-  text-decoration: underline; }
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline; }
 
 /* destyle.css */
 /* Text-level semantics
@@ -248,5 +247,7 @@ a {
 
 /* undohtml.css */
 /* whoever thought blue linked image borders were a good idea? */
-a img, :link img, :visited img {
+a img,
+:link img,
+:visited img {
   border: none; }
