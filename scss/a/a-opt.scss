@@ -32,16 +32,6 @@ a {
 	text-decoration: underline;
 }
 
-a:focus {
-	/* meyerreset */
-	outline: thin dotted; /* Address `outline` inconsistency between Chrome and other browsers. */
-}
-
-a:active {
-	/* meyerreset */
-	outline: 0; /* Improve readability when focused and also mouse hovered in all browsers. */
-}
-
 a:hover {
 	/* bootstrap-reboot.css */
 	color: #0056b3;
@@ -52,4 +42,14 @@ a:hover {
 
 	/* meyerreset */
 	outline: 0; /* Improve readability when focused and also mouse hovered in all browsers. */
+}
+
+a:active {
+	/* meyerreset */
+	outline: 0; /* Improve readability when focused and also mouse hovered in all browsers. */
+}
+
+a:focus {
+	/* meyerreset */
+	outline: thin dotted; /* Address `outline` inconsistency between Chrome and other browsers. */
 }
