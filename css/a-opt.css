@@ -12,8 +12,6 @@ a {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  /* tripoli */
-  outline: none;
   /* html5doctor.com Reset */
   background: transparent;
   /* sanitize.css v7.0.3 */
@@ -33,7 +31,4 @@ a:hover {
   color: #0056b3;
   text-decoration: underline;
   /* marx.css */
-  color: #0062cc;
-  /* meyerreset */
-  outline: 0;
-  /* Improve readability when focused and also mouse hovered in all browsers. */ }
+  color: #0062cc; }
