@@ -14,10 +14,6 @@ a {
 	font: inherit;
 	vertical-align: baseline;
 
-	/* sanitize.css v7.0.3 */
-	-ms-touch-action: manipulation; /* Remove the tapping delay in IE 10. */
-	    touch-action: manipulation; /* Remove the tapping delay on clickable elements in all browsers (opinionated). */
-
 	/* typeset.css */
 	line-height: 1.0;
 	text-decoration: underline;
