@@ -11,7 +11,9 @@ a {
 	/* color: #1779ba; */ /* opinionated color alternative */
 }
 
-a:hover {
+a:hover,
+a:focus,
+a:active {
 	/* bootstrap-reboot.css */
 	color: #0056b3;
 	text-decoration: underline;
