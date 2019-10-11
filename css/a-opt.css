@@ -1,19 +1,18 @@
 a {
-  /* bootstrap-reboot.css */
   color: #007bff;
-  text-decoration: none;
-  /* normalize */
-  background-color: transparent;
-  /* Remove the gray background on active links in IE 10. */
-  line-height: inherit;
+  /* [bootstrap-reboot.css] */
   /* color: #1779ba; */
-  /* [Foundation] opinionated color alternative */ }
+  /* [Foundation] opinionated color alternative */
+  background-color: transparent;
+  /* [normalize] Remove the gray background on active links in IE 10. */
+  text-decoration: none;
+  line-height: inherit; }
 
 a:hover,
 a:focus,
 a:active {
-  /* bootstrap-reboot.css */
   color: #0056b3;
+  /* [bootstrap-reboot.css] */
   text-decoration: underline;
   /* color: #1468a0; */
   /* [Foundation] opinionated color alternative */ }
