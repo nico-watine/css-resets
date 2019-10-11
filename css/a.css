@@ -1,8 +1,6 @@
 a {
   color: #007bff;
   /* [bootstrap-reboot.css] */
-  /* color: #1779ba; */
-  /* [Foundation] opinionated color alternative */
   background-color: transparent;
   /* [normalize] Remove the gray background on active links in IE 10. */
   text-decoration: none;
