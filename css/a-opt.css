@@ -5,16 +5,14 @@ a {
   /* normalize */
   background-color: transparent;
   /* Remove the gray background on active links in IE 10. */
+  line-height: inherit;
   /* meyerreset */
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-  /* typeset.css */
-  line-height: 1.0;
-  text-decoration: underline; }
+  vertical-align: baseline; }
 
 a:hover {
   /* bootstrap-reboot.css */
