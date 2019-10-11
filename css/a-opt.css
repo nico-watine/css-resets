@@ -3,7 +3,12 @@ a {
   color: #007bff;
   text-decoration: none;
   /* normalize */
-  line-height: inherit; }
+  background-color: transparent;
+  /* Remove the gray background on active links in IE 10. */
+  line-height: inherit;
+  /* Foundation */
+  /* color: #1779ba; */
+  /* opinionated color alternative */ }
 
 a:hover {
   /* bootstrap-reboot.css */
