@@ -4749,9 +4749,6 @@ legend {
 /*
 https://github.com/zellwk/css-reset
 */
-/***********************************
- Easy responsive for media elements
- ***********************************/
 img {
   display: block;
   max-width: 100%; }
