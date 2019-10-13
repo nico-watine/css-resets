@@ -80,6 +80,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/css/img.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/img-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -560,6 +570,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/all-stock-resets.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/img/img.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/img.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
