@@ -1,14 +1,6 @@
 address {
   font-style: normal;
   font-weight: normal;
-  margin: 0;
-  padding: 0; }
-
-address {
-  margin-bottom: 20px;
-  border: 0; }
-
-address {
   margin-bottom: 1rem;
-  font-style: normal;
+  padding: 0;
   line-height: inherit; }
