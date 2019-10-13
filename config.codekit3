@@ -629,19 +629,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/img/combined/_html5-reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_html5-reset.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/img/combined/_html5doctor.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -811,6 +798,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/img/combined/css/img-combined.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/img/combined/css/img-combined-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/scss/img/combined/img-combined.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -821,6 +818,19 @@
 		"oA": 0,
 		"oAP": "/scss/img/combined/css/img-combined.css",
 		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/img/img.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/img.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
