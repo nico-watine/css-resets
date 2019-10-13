@@ -14,7 +14,8 @@ img {
   color: transparent;
   font-size: 0;
   vertical-align: middle;
-  -ms-interpolation-mode: bicubic; }
+  -ms-interpolation-mode: bicubic;
+  /* For IE: http://css-tricks.com/ie-fix-bicubic-scaling-for-images */ }
 
 img {
   vertical-align: middle; }
@@ -51,7 +52,8 @@ img {
   max-width: 100%; }
 
 img {
-  border-style: none; }
+  border-style: none;
+  /* [normalize] Remove the border on images inside links in IE 10. */ }
 
 img {
   vertical-align: middle;
