@@ -1,28 +1,5 @@
 video {
-  border: 0;
-  margin: 0;
-  padding: 0;
-  font-size: 100%; }
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-video {
-  vertical-align: middle; }
-
-/**
- * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
- */
-video {
+  vertical-align: middle;
   display: inline-block;
-  max-width: 100%; }
-
-video {
-  height: auto;
-  max-width: 100%; }
-
-video {
-  display: block;
-  max-width: 100%; }
+  max-width: 100%;
+  height: auto; }
