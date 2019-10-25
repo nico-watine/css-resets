@@ -1,28 +1,3 @@
-/**
- * Change the fill color to match the text color in all browsers (opinionated).
- */
-
-svg:not([fill]) {
-  fill: currentColor;
-}
-
-/**
- * Hide the overflow in IE.
- */
-
-svg:not(:root) {
-  overflow: hidden;
-}
-
-// _formalize.scss
-svg {
-/*
-  For IE9. Without, occasionally draws shapes
-  outside the boundaries of <svg> rectangle.
-*/
-  overflow: hidden;
-}
-
 svg {
 	overflow: hidden; // Prevent drawing shapes outside of svg rectangle boundaries in IE9
 	vertical-align: middle; // Remove the gap between svg and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
