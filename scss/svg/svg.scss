@@ -1,19 +1,82 @@
-@import '_alligator-io.scss';
-@import '_bootstrap-reboot.scss';
-@import '_destyle.scss';
-@import '_formalize.scss';
-@import '_h5bp-main-reset.scss';
-@import '_html5-reset.scss';
-@import '_html5doctor.scss';
-@import '_marx.scss';
-@import '_meyer-reset-mod.scss';
-@import '_meyer-reset.scss';
-@import '_minireset.scss';
-@import '_normalize.scss';
-@import '_sanitize.scss';
-@import '_tripoli.scss';
-@import '_typeset.scss';
-@import '_undohtmlcss.scss';
-@import '_vanilla-reset.scss';
-@import '_yui-reset.scss';
-@import '_zellwk-css-reset.scss';
+// @import '_alligator-io.scss';
+// @import '_bootstrap-reboot.scss';
+// @import '_destyle.scss';
+// @import '_formalize.scss';
+// @import '_h5bp-main-reset.scss';
+// @import '_html5-reset.scss';
+// @import '_html5doctor.scss';
+// @import '_marx.scss';
+// @import '_meyer-reset-mod.scss';
+// @import '_meyer-reset.scss';
+// @import '_minireset.scss';
+// @import '_normalize.scss';
+// @import '_sanitize.scss';
+// @import '_tripoli.scss';
+// @import '_typeset.scss';
+// @import '_undohtmlcss.scss';
+// @import '_vanilla-reset.scss';
+// @import '_yui-reset.scss';
+// @import '_zellwk-css-reset.scss';
+
+// _zellwk-css-reset.scss
+/***********************************
+ Easy responsive for media elements
+ ***********************************/
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+// _sanitize.scss
+/* Embedded content
+ * ========================================================================== */
+
+/*
+ * Change the alignment on media elements in all browsers (opinionated).
+ */
+
+svg {
+  vertical-align: middle;
+}
+
+/**
+ * Change the fill color to match the text color in all browsers (opinionated).
+ */
+
+svg:not([fill]) {
+  fill: currentColor;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+// _h5bp-main-reset.scss
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+svg {
+	vertical-align: middle;
+}
+
+// _formalize.scss
+svg {
+/*
+  For IE9. Without, occasionally draws shapes
+  outside the boundaries of <svg> rectangle.
+*/
+  overflow: hidden;
+}
+
+// _bootstrap-reboot.scss
+svg {
+	overflow: hidden;
+	vertical-align: middle;
+}
