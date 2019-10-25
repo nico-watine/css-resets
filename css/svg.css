@@ -25,14 +25,6 @@ svg:not([fill]) {
 svg:not(:root) {
   overflow: hidden; }
 
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-svg {
-  vertical-align: middle; }
-
 svg {
   /*
   For IE9. Without, occasionally draws shapes

@@ -35,17 +35,6 @@ svg:not(:root) {
   overflow: hidden;
 }
 
-// _h5bp-main-reset.scss
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-svg {
-	vertical-align: middle;
-}
-
 // _formalize.scss
 svg {
 /*
@@ -55,8 +44,7 @@ svg {
   overflow: hidden;
 }
 
-// _bootstrap-reboot.scss
 svg {
 	overflow: hidden;
-	vertical-align: middle;
+	vertical-align: middle; // Remove the gap between svg and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
 }
