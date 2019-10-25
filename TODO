@@ -6,6 +6,12 @@ High Priority Tags:
 	✔	svg @done (19-10-25 10:00)
 	☐	blockquote
 	☐	caption
+	☐	figure
+	☐	figcaption
+	☐	em
+	☐	hr
+	☐	strong
+	☐	br
 
 Additional Tags (in no order):
 	☐	sub
@@ -15,6 +21,35 @@ Additional Tags (in no order):
 	☐	cite
 	☐	canvas
 	☐	button
+	☐	form
+	☐	picture
+	☐	i
+	☐	iframe
+	☐	h1 - h6
+	☐	embed
+	☐	s
+	☐	table
+	☐	tbody
+	☐	tfoot
+	☐	th
+	☐	thead
+	☐	tr
+	☐	td
+	☐	u
+	☐	ul
+	☐	q
+	☐	ol
+	☐	mark
+	☐	map
+	☐	li
+	☐	col
+	☐	colgroup
+	☐	audio
+	☐	abbr
+	☐	details
+	☐	del
+	☐	dfn
+	☐	dialog
 
 Necessary?:
 	☐	article
@@ -22,3 +57,27 @@ Necessary?:
 	☐	footer
 	☐	header
 	☐	html
+	☐	div
+	☐	head
+	☐	link
+	☐	nav
+	☐	p
+	☐	span
+	☐	title
+	☐	time
+	☐	meta
+	☐	main
+	☐	link
+	☐	source
+	☐	ruby
+	☐	aside
+	☐	area
+	☐	base
+	☐	data
+	☐	datalist
+	☐	dd
+	☐	dl
+	☐	dt
+	☐	fieldset
+	☐	bdi
+	☐	bdo
