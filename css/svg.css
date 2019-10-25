@@ -5,14 +5,6 @@ svg {
   display: block;
   max-width: 100%; }
 
-/* Embedded content
- * ========================================================================== */
-/*
- * Change the alignment on media elements in all browsers (opinionated).
- */
-svg {
-  vertical-align: middle; }
-
 /**
  * Change the fill color to match the text color in all browsers (opinionated).
  */
