@@ -50,6 +50,20 @@ Additional Tags (in no order):
 	☐	del
 	☐	dfn
 	☐	dialog
+	☐	ins
+	☐	input
+	☐	kbd
+	☐	label
+	☐	legend
+	☐	optgroup
+	☐	option
+	☐	pre
+	☐	progress
+	☐	samp
+	☐	select
+	☐	textarea
+	☐	var
+	☐	wbr
 
 Necessary?:
 	☐	article
@@ -81,3 +95,13 @@ Necessary?:
 	☐	fieldset
 	☐	bdi
 	☐	bdo
+	☐	meter
+	☐	object
+	☐	output
+	☐	param
+	☐	rp
+	☐	rt
+	☐	section
+	☐	summary
+	☐	template
+	☐	track
