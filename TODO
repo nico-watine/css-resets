@@ -4,7 +4,21 @@ High Priority Tags:
 	✔	address @done (19-10-13 08:31)
 	✔	small @done (19-10-13 08:44)
 	✔	svg @done (19-10-25 10:00)
+	☐	blockquote
+	☐	caption
 
 Additional Tags (in no order):
 	☐	sub
 	☐	sup
+	☐	br
+	☐	code
+	☐	cite
+	☐	canvas
+	☐	button
+
+Necessary?:
+	☐	article
+	☐	body
+	☐	footer
+	☐	header
+	☐	html
