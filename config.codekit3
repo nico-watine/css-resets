@@ -435,6 +435,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/hr/hr.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/hr.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/img/img.scss": {
 		"aP": 0,
 		"bl": 0,
