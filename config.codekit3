@@ -507,6 +507,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/strong/strong.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/strong.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/svg/svg.scss": {
 		"aP": 0,
 		"bl": 0,
