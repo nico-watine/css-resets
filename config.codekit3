@@ -90,6 +90,26 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/css/hr.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/hr-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/html.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/html-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/img.css": {
 		"aP": 1,
 		"bl": 0,
@@ -448,6 +468,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/html/html.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/html.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/img/img.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -470,6 +503,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/small.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/strong/strong.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/strong.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
