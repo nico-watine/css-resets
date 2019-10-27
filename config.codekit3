@@ -130,6 +130,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/css/strong.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/strong-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/svg.css": {
 		"aP": 1,
 		"bl": 0,
