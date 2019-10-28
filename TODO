@@ -8,7 +8,7 @@ High Priority Tags:
 	☐	caption
 	☐	figure
 	☐	figcaption
-	☐	em
+	✔	em @done (19-10-28 16:58)
 	✔	hr @done (19-10-26 13:04)
 	✔	strong @done (19-10-26 13:13)
 	✔	html (box-sizing) @done (19-10-26 13:07)
@@ -22,7 +22,7 @@ Additional Tags (in no order):
 	☐	button
 	☐	form
 	☐	picture
-	☐	i
+	✔	i @done (19-10-28 16:58)
 	☐	iframe
 	☐	h1 - h6
 	☐	embed
