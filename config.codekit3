@@ -90,6 +90,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/css/em.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/em-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/hr.css": {
 		"aP": 1,
 		"bl": 0,
@@ -127,6 +137,16 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/small-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/strong.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/strong-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -451,6 +471,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/all-stock-resets.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/em/em.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/em.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
