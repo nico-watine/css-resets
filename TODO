@@ -14,8 +14,8 @@ High Priority Tags:
 	✔	html (box-sizing) @done (19-10-26 13:07)
 
 Additional Tags (in no order):
-	☐	sub
-	☐	sup
+	✔	sub @done (19-10-29 08:05)
+	✔	sup @done (19-10-29 08:05)
 	☐	code
 	☐	cite
 	☐	canvas
@@ -26,7 +26,6 @@ Additional Tags (in no order):
 	☐	iframe
 	☐	h1 - h6
 	☐	embed
-	☐	s
 	☐	table
 	☐	tbody
 	☐	tfoot
