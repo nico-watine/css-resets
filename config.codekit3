@@ -150,13 +150,13 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/sub.css": {
+	"/css/sub-sup.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/sub-min.css",
+		"oAP": "/css/sub-sup-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -563,7 +563,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/sub/sub.scss": {
+	"/scss/sub-sup/sub-sup.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -571,7 +571,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/sub.css",
+		"oAP": "/css/sub-sup.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
