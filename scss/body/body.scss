@@ -1,7 +1,14 @@
-// zellwk
 body {
-	margin: 0;
+	margin: 0; // [normalize] Remove the margin in all browsers.
 	padding: 0;
+	// Customize following styles as needed:: ------------
+	// background-color: #fefefe; // [foundation] color value
+	// color: #0a0a0a; // [foundation] color value
+	// line-height: 1.5;
+	// font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; // [foundation] sans-serif font stack
+	// font-weight: normal;
+	// -webkit-font-smoothing: antialiased;
+	// -moz-osx-font-smoothing: grayscale;
 }
 
 // tripoli
@@ -11,14 +18,7 @@ body {
 	color: black;
 }
 
-// normalize
-/**
- * Remove the margin in all browsers.
- */
 
-body {
-	margin: 0;
-}
 
 // meyer-reset
 body {
@@ -52,8 +52,8 @@ body {
 	font-weight: 400;
 	line-height: 1.5;
 	color: #212529;
-	text-align: left;
-	background-color: #fff;
+	// text-align: left;
+	// background-color: #fff;
 }
 
 // alligator-io
@@ -65,13 +65,13 @@ body {
 
 // foundation
 body {
-	margin: 0;
-	padding: 0;
-	background: #fefefe;
-	font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-	font-weight: normal;
-	line-height: 1.5;
-	color: #0a0a0a;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	// margin: 0;
+	// padding: 0;
+	// background: #fefefe;
+	// font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	// font-weight: normal;
+	// line-height: 1.5;
+	// color: #0a0a0a;
+	// -webkit-font-smoothing: antialiased;
+	// -moz-osx-font-smoothing: grayscale;
 }
