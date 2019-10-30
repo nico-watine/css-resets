@@ -1,77 +1,14 @@
 body {
 	margin: 0; // [normalize] Remove the margin in all browsers.
 	padding: 0;
-	// Customize following styles as needed:: ------------
+
+	// Customize following styles as needed -----------------
+
 	// background-color: #fefefe; // [foundation] color value
 	// color: #0a0a0a; // [foundation] color value
 	// line-height: 1.5;
 	// font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; // [foundation] sans-serif font stack
 	// font-weight: normal;
-	// -webkit-font-smoothing: antialiased;
-	// -moz-osx-font-smoothing: grayscale;
-}
-
-// tripoli
-body {
-	line-height: 1;
-	background: white;
-	color: black;
-}
-
-
-
-// meyer-reset
-body {
-	line-height: 1;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-// marx
-body {
-	color: rgba(0, 0, 0, .8);
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-	font-size: 16px;
-	line-height: 1.5;
-}
-
-// formalize
-body {
-	font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
-}
-
-// bootstrap reboot
-body {
-	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-	font-size: 1rem;
-	font-weight: 400;
-	line-height: 1.5;
-	color: #212529;
-	// text-align: left;
-	// background-color: #fff;
-}
-
-// alligator-io
-body {
-	margin: 0;
-	padding: 0;
-	font-weight: normal;
-}
-
-// foundation
-body {
-	// margin: 0;
-	// padding: 0;
-	// background: #fefefe;
-	// font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	// font-weight: normal;
-	// line-height: 1.5;
-	// color: #0a0a0a;
 	// -webkit-font-smoothing: antialiased;
 	// -moz-osx-font-smoothing: grayscale;
 }
