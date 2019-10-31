@@ -1,0 +1,61 @@
+code {
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0; }
+
+code {
+  font: 1em/1.5em 'Andale Mono', 'Lucida Console', monospace;
+  margin: 0 0 1.5em 0; }
+
+code {
+  font-size: 1em; }
+
+code {
+  background-color: #f3f6fa;
+  font-family: monospace;
+  padding: .1em .2em;
+  color: #324354; }
+
+code {
+  font: inherit;
+  font-size: 1em;
+  white-space: normal; }
+
+code {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+code {
+  font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+code {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+code {
+  font-family: Menlo, Consolas, Roboto Mono, Ubuntu Monospace, Noto Mono, Oxygen Mono, Liberation Mono, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 16px;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  word-break: break-all;
+  word-wrap: break-word; }
+
+/* standardize any monospaced elements */
+code {
+  font-family: monospace, sans-serif; }
+
+code {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  font-size: 1em; }
