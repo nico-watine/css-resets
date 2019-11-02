@@ -1,96 +1,9 @@
-// yui
 code {
-	font-style: normal;
-	font-weight: normal;
+	font-family: monospace, monospace; // [normalize] Correct the inheritance and scaling of font size in all browsers.
+	font-size: 1em; // [normalize] Correct the odd `em` font sizing in all browsers.
 	margin: 0;
 	padding: 0;
-}
-
-// vanilla
-code {
-	font: 1em/1.5em 'Andale Mono', 'Lucida Console', monospace;
-	margin: 0 0 1.5em 0;
-}
-
-// undohtml
-// avoid browser default inconsistent code font-sizes
-code {
-	font-size: 1em;
-}
-
-// typeset
-code {
-	background-color: #f3f6fa;
-	font-family: monospace;
-	padding: .1em .2em;
-	color: #324354;
-}
-
-// tripoli
-code {
-	font: inherit;
-	font-size: 1em;
-	white-space: normal;
-}
-
-// sanitize
-// 1. Correct the inheritance and scaling of font size in all browsers.
-// 2. Correct the odd `em` font sizing in all browsers.
-code {
-	font-family: monospace, monospace; /* 1 */
-	font-size: 1em; /* 2 */
-}
-// Use the default monospace user interface font in all browsers (opinionated).
-code {
-	font-family: /* macOS 10.10+ */ 'Menlo',
-	/* Windows 6+ */ 'Consolas',
-	/* Android 4+ */ 'Roboto Mono',
-	/* Ubuntu 10.10+ */ 'Ubuntu Monospace',
-	/* KDE Plasma 5+ */ 'Noto Mono',
-	/* KDE Plasma 4+ */ 'Oxygen Mono',
-	/* Linux/OpenOffice fallback */ 'Liberation Mono',
-	/* fallback */ monospace,
-	/* macOS emoji */ 'Apple Color Emoji',
-	/* Windows emoji */ 'Segoe UI Emoji',
-	/* Windows emoji */ 'Segoe UI Symbol',
-	/* Linux emoji */ 'Noto Color Emoji';
-}
-
-// normalize
-// 1. Correct the inheritance and scaling of font size in all browsers.
-// 2. Correct the odd `em` font sizing in all browsers.
-code {
-	font-family: monospace, monospace; /* 1 */
-	font-size: 1em; /* 2 */
-}
-
-// marx
-// 1. Use the default monospace user interface font in all browsers (opinionated).
-// 2. Correct the odd `em` font sizing in all browsers.
-code {
-	font-family: Menlo, Consolas, Roboto Mono, Ubuntu Monospace, Noto Mono, Oxygen Mono, Liberation Mono, monospace;
-	/* 1 */
-	font-size: 1em;
-	/* 2 */
-	color: rgba(0, 0, 0, .8);
-	font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
-	font-size: 16px;
-	line-height: inherit;
-	margin: 0;
-	padding: 0;
-	vertical-align: baseline;
 	word-break: break-all;
 	word-wrap: break-word;
-}
-
-// html5-reset
-/* standardize any monospaced elements */
-code {
-	font-family: monospace, sans-serif;
-}
-
-// bootstrap-reboot
-code {
-	font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
-	font-size: 1em;
+	white-space: pre;
 }
