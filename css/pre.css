@@ -1,0 +1,90 @@
+pre {
+  margin: 0;
+  padding: 0; }
+
+pre {
+  font: 1em/1.5em 'Andale Mono', 'Lucida Console', monospace; }
+
+pre {
+  margin: 0 0 1.5em 0; }
+
+pre {
+  margin: 1.5em 0;
+  white-space: pre; }
+
+/* avoid browser default inconsistent pre font-sizes */
+pre {
+  font-size: 1em; }
+
+pre {
+  line-height: 1.5;
+  margin: 0 0 1.5em 0;
+  background-color: #f3f6fa;
+  color: #324354;
+  border: 1px solid #dbe2f2;
+  /* background-color set above */
+  border-radius: 2px;
+  /* color set above */
+  display: block;
+  font-family: monospace;
+  font-size: .75em;
+  line-height: 2;
+  margin: 0 0 2em 0;
+  max-width: 100%;
+  overflow: scroll;
+  padding: calc(1em - 1px) 1.5em;
+  white-space: pre-wrap; }
+
+pre {
+  font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * 1. Use the default monospace user interface font
+ *    in all browsers (opinionated).
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: Menlo, Consolas, Roboto Mono, Ubuntu Monospace, Noto Mono, Oxygen Mono, Liberation Mono, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+pre {
+  background: #f7f7f9;
+  color: rgba(0, 0, 0, 0.8);
+  display: block;
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 16px;
+  margin: 16px 0;
+  padding: 16px;
+  white-space: pre-wrap;
+  overflow-wrap: break-word; }
+
+pre {
+  white-space: pre;
+  /* CSS2 */
+  white-space: pre-wrap;
+  /* CSS 2.1 */
+  white-space: pre-line;
+  /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word;
+  /* IE */ }
+
+pre {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  font-size: 1em; }
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto; }
