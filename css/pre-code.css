@@ -9,11 +9,7 @@ pre {
   word-break: normal;
   -ms-word-break: normal;
   tab-size: 4;
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
   hyphens: none;
-  -webkit-hyphens: none;
-  -ms-hyphens: none;
   background: #f7f7f9;
   border: 1px solid #dbe2f2;
   border-radius: 4px; }
