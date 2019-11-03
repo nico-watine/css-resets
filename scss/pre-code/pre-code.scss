@@ -7,8 +7,7 @@ pre {
 	font-family: monospace, monospace; // [normalize] Correct the inheritance and scaling of font size in all browsers
 	font-size: 1em; // [normalize] Correct the odd `em` font sizing in all browsers.
 	// `word-break` CSS property sets whether line breaks appear wherever the text would otherwise overflow its content box
-	    word-break: normal;
-	-ms-word-break: normal;
+	word-break: normal;
 	// `tab-size` CSS property is used to customize the width of a tab (U+0009) character
 	tab-size: 4; // [Opinionated]
 	// 'hyphens` CSS property specifies how words should be hyphenated when text wraps across multiple lines.
