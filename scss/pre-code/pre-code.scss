@@ -10,13 +10,9 @@ pre {
 	    word-break: normal;
 	-ms-word-break: normal;
 	// `tab-size` CSS property is used to customize the width of a tab (U+0009) character
-	     tab-size: 4; // [Opinionated]
-	-moz-tab-size: 4;
-	  -o-tab-size: 4;
+	tab-size: 4; // [Opinionated]
 	// 'hyphens` CSS property specifies how words should be hyphenated when text wraps across multiple lines.
-	        hyphens: none; // [Opinionated] Words are not broken at line breaks, even if characters inside the words suggest line break points. Lines will only wrap at whitespace.
-	-webkit-hyphens: none;
-	    -ms-hyphens: none;
+	hyphens: none; // [Opinionated] Words are not broken at line breaks, even if characters inside the words suggest line break points. Lines will only wrap at whitespace.
 	background: #f7f7f9; // [Opinionated]
 	border: 1px solid #dbe2f2; // [Opinionated]
 	border-radius: 4px; // [Opinionated]
