@@ -1,133 +1,34 @@
 pre {
 	margin-top: 0;
-	margin-bottom: 1rem;
+	margin-bottom: 1rem; // [Opinionated]
+	clear: both;
+	display: block;
 	padding: 0;
 	font-family: monospace, monospace; // [normalize] Correct the inheritance and scaling of font size in all browsers
 	font-size: 1em; // [normalize] Correct the odd `em` font sizing in all browsers.
-	white-space: pre-wrap;
+	// `word-break` CSS property sets whether line breaks appear wherever the text would otherwise overflow its content box
 	    word-break: normal;
 	-ms-word-break: normal;
 	// `tab-size` CSS property is used to customize the width of a tab (U+0009) character
-	     tab-size: 4; // Opinionated
+	     tab-size: 4; // [Opinionated]
 	-moz-tab-size: 4;
 	  -o-tab-size: 4;
 	// 'hyphens` CSS property specifies how words should be hyphenated when text wraps across multiple lines.
 	        hyphens: none; // [Opinionated] Words are not broken at line breaks, even if characters inside the words suggest line break points. Lines will only wrap at whitespace.
 	-webkit-hyphens: none;
 	    -ms-hyphens: none;
-	clear: both;
-	background: #f7f7f9; // Opinionated
-	border: 1px solid #dbe2f2; // Opinionated
-	border-radius: 4px; // Opinionated
+	background: #f7f7f9; // [Opinionated]
+	border: 1px solid #dbe2f2; // [Opinionated]
+	border-radius: 4px; // [Opinionated]
 }
 
 pre code {
-	font-size: 1em; // [normalize] Correct the odd `em` font sizing in all browsers.
-	line-height: 1.5; // Opinionated
-	padding: 1em; // Opinionated
+	display: block;
+	font-size: 16px; // [Opinionated] - Ensure `font-size` is 16px, regardless of root size
+	line-height: 1.5; // [Opinionated]
+	padding: 16px; // [Opinionated] - Match `font-size`
 	max-width: 100%; // So <code> doesn't expand outside its <pre> wrapper
-	min-width: 100px; // Opinionated - so <code> has at least 100px to display its content
-}
-
-// typeset
-pre {
-	line-height: 1.5;
-	margin: 0 0 1.5em 0;
-	background-color: #f3f6fa;
-	color: #324354;
-	border: 1px solid #dbe2f2;
-	/* background-color set above */
-	border-radius: 2px;
-	/* color set above */
-	display: block;
-	font-family: monospace;
-	line-height: 2;
-	margin: 0 0 2em 0;
-	max-width: 100%;
-	overflow: scroll;
-	padding: calc(1em - 1px) 1.5em;
-}
-
-// sanitize
-pre {
-	font-family: /* macOS 10.10+ */ 'Menlo',
-	/* Windows 6+ */ 'Consolas',
-	/* Android 4+ */ 'Roboto Mono',
-	/* Ubuntu 10.10+ */ 'Ubuntu Monospace',
-	/* KDE Plasma 5+ */ 'Noto Mono',
-	/* KDE Plasma 4+ */ 'Oxygen Mono',
-	/* Linux/OpenOffice fallback */ 'Liberation Mono',
-	/* fallback */ monospace,
-	/* macOS emoji */ 'Apple Color Emoji',
-	/* Windows emoji */ 'Segoe UI Emoji',
-	/* Windows emoji */ 'Segoe UI Symbol',
-	/* Linux emoji */ 'Noto Color Emoji';
-}
-
-
-
-// marx
-pre {
-	background: #f7f7f9;
-	color: rgba(0, 0, 0, .8);
-	display: block;
-	// font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
-	// font-size: 16px;
-	margin: 16px 0;
-	padding: 16px;
-	overflow-wrap: break-word;
-}
-
-// html5-reset
-pre {
-	word-wrap: break-word; /* IE */
-}
-
-// bootstrap-reboot
-pre {
-	font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
-	// font-size: 1em;
-}
-pre {
-	// margin-top: 0;
-	// margin-bottom: 1rem;
-	overflow: auto;
-}
-
-// below are styles taken from css-tricks.com
-pre {
-	// font-family: operator mono ssm a,operator mono ssm b,operator mono,source code pro,Menlo,Consolas,Monaco,monospace;
-	// clear: both;
-	// color: #fff;
-	// background: rgba(32,28,41,.75);
-	// padding: 0;
-	// -moz-tab-size: 2;
-	// -o-tab-size: 2;
-	// tab-size: 2;
-	// -ms-word-break: normal;
-	// word-break: normal;
-	// word-break: normal;
-	// -webkit-hyphens: none;
-	//     -ms-hyphens: none;
-	//         hyphens: none;
-	position: relative;
-	line-height: 28px;
-	border-radius: 8px;
-	min-width: 100px;
-	max-width: 100%;
-	overflow: hidden;
-}
-pre code {
-	// font-size: 16px;
-	// line-height: 1.75;
-	// background: 0 0;
-	// padding: 30px;
-	white-space: pre;
-	-webkit-overflow-scrolling: touch;
-	display: block;
-	overflow-x: scroll;
-	// max-width: 100%;
-	// min-width: 100px;
-	// scrollbar-color: #666;
-	// scrollbar-width: .5em;
+	min-width: 100px; // [Opinionated] - so <code> has at least 100px to display its content
+	// `white-space` CSS property sets how white space inside an element is handled
+	white-space: pre-wrap; // [Opinionated] Sequences of white space are preserved. Lines are broken at newline characters, at <br>, and as necessary to fill line boxes.
 }

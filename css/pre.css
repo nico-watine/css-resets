@@ -1,10 +1,11 @@
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
+  clear: both;
+  display: block;
   padding: 0;
   font-family: monospace, monospace;
   font-size: 1em;
-  white-space: pre-wrap;
   word-break: normal;
   -ms-word-break: normal;
   tab-size: 4;
@@ -13,66 +14,15 @@ pre {
   hyphens: none;
   -webkit-hyphens: none;
   -ms-hyphens: none;
-  clear: both;
   background: #f7f7f9;
   border: 1px solid #dbe2f2;
   border-radius: 4px; }
 
 pre code {
-  font-size: 1em;
-  line-height: 1.5;
-  padding: 1em;
-  max-width: 100%;
-  min-width: 100px; }
-
-pre {
-  line-height: 1.5;
-  margin: 0 0 1.5em 0;
-  background-color: #f3f6fa;
-  color: #324354;
-  border: 1px solid #dbe2f2;
-  /* background-color set above */
-  border-radius: 2px;
-  /* color set above */
   display: block;
-  font-family: monospace;
-  line-height: 2;
-  margin: 0 0 2em 0;
-  max-width: 100%;
-  overflow: scroll;
-  padding: calc(1em - 1px) 1.5em; }
-
-pre {
-  font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-
-pre {
-  background: #f7f7f9;
-  color: rgba(0, 0, 0, 0.8);
-  display: block;
-  margin: 16px 0;
+  font-size: 16px;
+  line-height: 1.5;
   padding: 16px;
-  overflow-wrap: break-word; }
-
-pre {
-  word-wrap: break-word;
-  /* IE */ }
-
-pre {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; }
-
-pre {
-  overflow: auto; }
-
-pre {
-  position: relative;
-  line-height: 28px;
-  border-radius: 8px;
-  min-width: 100px;
   max-width: 100%;
-  overflow: hidden; }
-
-pre code {
-  white-space: pre;
-  -webkit-overflow-scrolling: touch;
-  display: block;
-  overflow-x: scroll; }
+  min-width: 100px;
+  white-space: pre-wrap; }
