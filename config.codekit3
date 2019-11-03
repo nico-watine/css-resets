@@ -100,16 +100,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/code.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/code-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"/css/em.css": {
 		"aP": 1,
 		"bl": 0,
@@ -150,13 +140,13 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/pre.css": {
+	"/css/pre-code.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/pre-min.css",
+		"oAP": "/css/pre-code-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -528,19 +518,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/code/code.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/code.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/scss/em/em.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -593,7 +570,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/pre/pre.scss": {
+	"/scss/pre-code/pre-code.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -601,7 +578,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/pre.css",
+		"oAP": "/css/pre-code.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
