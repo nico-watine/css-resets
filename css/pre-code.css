@@ -10,6 +10,7 @@ pre {
   tab-size: 4;
   hyphens: none;
   background: #f7f7f9;
+  color: #000;
   border: 1px solid #dbe2f2;
   border-radius: 4px; }
 
@@ -29,4 +30,5 @@ code {
   padding: .1rem .3rem .2rem;
   word-break: break-all;
   white-space: pre;
-  background: #f7f7f9; }
+  background: #f7f7f9;
+  color: #000; }

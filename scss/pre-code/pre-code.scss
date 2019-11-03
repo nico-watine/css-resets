@@ -13,6 +13,7 @@ pre {
 	// 'hyphens` CSS property specifies how words should be hyphenated when text wraps across multiple lines.
 	hyphens: none; // [Opinionated] Words are not broken at line breaks, even if characters inside the words suggest line break points. Lines will only wrap at whitespace.
 	background: #f7f7f9; // [Opinionated]
+	color: #000; // [Opinionated]
 	border: 1px solid #dbe2f2; // [Opinionated]
 	border-radius: 4px; // [Opinionated]
 }
@@ -38,4 +39,5 @@ code {
 	// `white-space` CSS property sets how white space inside an element is handled
 	white-space: pre; // [Opinionated] Sequences of white space are preserved. Lines are only broken at newline characters in the source and at <br> elements.
 	background: #f7f7f9; // [Opinionated]
+	color: #000; // [Opinionated]
 }
