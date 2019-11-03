@@ -31,6 +31,7 @@ pre code {
 	min-width: 100px; // [Opinionated] - so <code> has at least 100px to display its content
 	// `white-space` CSS property sets how white space inside an element is handled
 	white-space: pre-wrap; // [Opinionated] Sequences of white space are preserved. Lines are broken at newline characters, at <br>, and as necessary to fill line boxes.
+	background: none; // [Opinionated] Since <code> will be wrapped in <pre>, and <pre> already has a `background` set
 }
 
 code {
@@ -41,4 +42,5 @@ code {
 	word-break: break-all; // [Opinionated] To prevent overflow, word breaks should be inserted between any two characters
 	// `white-space` CSS property sets how white space inside an element is handled
 	white-space: pre; // [Opinionated] Sequences of white space are preserved. Lines are only broken at newline characters in the source and at <br> elements.
+	background: #f7f7f9; // [Opinionated]
 }

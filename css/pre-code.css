@@ -25,11 +25,13 @@ pre code {
   padding: 16px;
   max-width: 100%;
   min-width: 100px;
-  white-space: pre-wrap; }
+  white-space: pre-wrap;
+  background: none; }
 
 code {
   font-family: monospace, monospace;
   font-size: 90%;
   padding: .1rem .3rem .2rem;
   word-break: break-all;
-  white-space: pre; }
+  white-space: pre;
+  background: #f7f7f9; }
