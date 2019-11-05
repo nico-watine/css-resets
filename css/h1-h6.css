@@ -1,0 +1,18 @@
+h1 {
+  font-size: 2em;
+  margin: .67em 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin-bottom: .5rem;
+  font-weight: bold;
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
+  line-height: 1.2;
+  text-rendering: optimizeLegibility; }
