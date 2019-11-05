@@ -110,13 +110,13 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/h1.css": {
+	"/css/h1-h6.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/h1-min.css",
+		"oAP": "/css/h1-h6-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -541,7 +541,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/scss/h1/h1.scss": {
+	"/scss/h1-h6/h1-h6.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -549,7 +549,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/h1.css",
+		"oAP": "/css/h1-h6.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
