@@ -1,11 +1,6 @@
-/**
-NORMALIZE
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Edge, Firefox, and Safari.
- */
 h1 {
-	font-size: 2em;
-	margin: .67em 0;
+	font-size: 2em; // [normalize] Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Edge, Firefox, and Safari.
+	margin: .67em 0; // [normalize]
 }
 
 h1,
@@ -137,27 +132,27 @@ h6 {
 }
 
 h1 {
-  font-size: 25px;
+	font-size: 25px;
 }
 
 h2 {
-  font-size: 23px;
+	font-size: 23px;
 }
 
 h3 {
-  font-size: 21px;
+	font-size: 21px;
 }
 
 h4 {
-  font-size: 19px;
+	font-size: 19px;
 }
 
 h5 {
-  font-size: 17px;
+	font-size: 17px;
 }
 
 h6 {
-  font-size: 15px;
+	font-size: 15px;
 }
 
 h1,
@@ -173,7 +168,7 @@ table,
 address,
 fieldset,
 figure {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 h1,
@@ -182,10 +177,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: inherit;
-  line-height: inherit;
-  font-weight: inherit;
-  margin: 0;
+	font-size: inherit;
+	line-height: inherit;
+	font-weight: inherit;
+	margin: 0;
 }
 
 h1,
@@ -210,56 +205,56 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  color: inherit;
-  text-rendering: optimizeLegibility;
+	font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: inherit;
+	text-rendering: optimizeLegibility;
 }
 h1,
 .h1 {
-  font-size: 1.5rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: .5rem;
+	font-size: 1.5rem;
+	line-height: 1.4;
+	margin-top: 0;
+	margin-bottom: .5rem;
 }
 
 h2,
 .h2 {
-  font-size: 1.25rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: .5rem;
+	font-size: 1.25rem;
+	line-height: 1.4;
+	margin-top: 0;
+	margin-bottom: .5rem;
 }
 
 h3,
 .h3 {
-  font-size: 1.1875rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: .5rem;
+	font-size: 1.1875rem;
+	line-height: 1.4;
+	margin-top: 0;
+	margin-bottom: .5rem;
 }
 
 h4,
 .h4 {
-  font-size: 1.125rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: .5rem;
+	font-size: 1.125rem;
+	line-height: 1.4;
+	margin-top: 0;
+	margin-bottom: .5rem;
 }
 
 h5,
 .h5 {
-  font-size: 1.0625rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: .5rem;
+	font-size: 1.0625rem;
+	line-height: 1.4;
+	margin-top: 0;
+	margin-bottom: .5rem;
 }
 
 h6,
 .h6 {
-  font-size: 1rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: .5rem;
+	font-size: 1rem;
+	line-height: 1.4;
+	margin-top: 0;
+	margin-bottom: .5rem;
 }
