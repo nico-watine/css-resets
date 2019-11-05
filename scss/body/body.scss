@@ -4,11 +4,11 @@ body {
 
 	// Customize following styles as needed -----------------
 
-	// background-color: #fefefe; // [foundation] color value
+	// background-color: #fefefe; // [Opinionated] Foundation color value
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; // [Opinionated] Foundation sans-serif font stack
-	// font-weight: normal;
-	// line-height: 1.5;
+	font-weight: normal; // [Opinionated]
+	line-height: 1.5; // [Opinionated]
 	color: #0a0a0a; // [Opinionated] Foundation color value
-	// -webkit-font-smoothing: antialiased;
-	// -moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased; // [Opinionated]
+	-moz-osx-font-smoothing: grayscale; // [Opinionated]
 }
