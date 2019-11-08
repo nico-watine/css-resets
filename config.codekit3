@@ -150,6 +150,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/css/p.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/p-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/pre-code.css": {
 		"aP": 1,
 		"bl": 0,
@@ -589,6 +599,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/img.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/p/p.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/p.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

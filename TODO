@@ -8,6 +8,7 @@ High Priority Tags:
 	☐	caption
 	☐	figure
 	☐	figcaption
+	✔	p @done (19-11-08 16:05)
 	✔	em @done (19-10-28 16:58)
 	✔	hr @done (19-10-26 13:04)
 	✔	strong @done (19-10-26 13:13)
@@ -22,7 +23,7 @@ Additional Tags (in no order):
 	☐	canvas
 	☐	button
 	☐	form
-	☐	picture
+	✔	picture (not needed) @done (19-11-08 15:43)
 	✔	i @done (19-10-28 16:58)
 	☐	iframe
 	✔	h1 - h6 @done (19-11-05 01:51)
@@ -72,7 +73,6 @@ Necessary?:
 	☐	head
 	☐	link
 	☐	nav
-	☐	p
 	☐	span
 	☐	title
 	☐	time
