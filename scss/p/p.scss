@@ -1,22 +1,8 @@
 p {
-	margin: 0;
+	margin-top: 0; // [bootstrap-reboot]
 	padding: 0;
-}
-
-p, code, pre, kbd {
-	margin:0 0 1.5em 0;
-}
-
-// foundation
-p {
-  margin-bottom: 1rem;
-  font-size: inherit;
-  line-height: 1.6;
-  text-rendering: optimizeLegibility;
-}
-
-// bootstrap
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
+	font-size: inherit;
+	line-height: 1.6;
+	text-rendering: optimizeLegibility;
 }
