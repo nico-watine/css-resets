@@ -90,3 +90,16 @@ textarea {
 	font-size: inherit;
 	line-height: inherit;
 }
+
+// foundation
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+	overflow: auto;
+	height: auto;
+	min-height: 50px;
+	border-radius: 0;
+	font-family: inherit;
+}
