@@ -1,0 +1,15 @@
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0; // [Normalize] Remove the margin in Firefox and Safari.
+	overflow: auto; // [Normalize] Remove the default vertical scrollbar in IE 10+.
+	resize: vertical; // [Opinionated] Allow only vertical resizing of textareas.
+	min-height: 50px; // [Opinionated]
+	height: auto;
+	border-radius: 0;
+	padding: .25em .375em; // [Opinionated] Change the inconsistent appearance in all browsers
+	max-width: 100%; // [Opinionated] Restrict sizing to the page width in all browsers
+	-ms-touch-action: manipulation;// [Opinionated] Remove the tapping delay in IE 10.
+	    touch-action: manipulation;// [Opinionated] Remove the tapping delay on clickable elements in all browsers
+}

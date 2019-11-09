@@ -210,6 +210,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/css/textarea.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/textarea-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/video.css": {
 		"aP": 1,
 		"bl": 0,
@@ -677,6 +687,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/svg.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/textarea/textarea.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/textarea.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
