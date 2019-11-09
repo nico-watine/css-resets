@@ -1,37 +1,4 @@
 textarea {
-  padding: 0;
-  width: 100%;
-  border: 1px solid gray;
-  letter-spacing: inherit;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  color: inherit;
-  font-size: 1em;
-  white-space: normal;
-  height: auto;
-  background-color: transparent;
-  /* 1 */
-  border: 1px solid WindowFrame;
-  /* 1 */
-  color: inherit;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-  letter-spacing: inherit;
-  /* 2 */
-  padding: .25em .375em;
-  /* 1 */ }
-
-textarea {
-  vertical-align: top;
-  font-size: 100%;
-  /* 1 */
-  vertical-align: baseline;
-  /* 3 */
-  color: #222; }
-
-textarea {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
@@ -41,6 +8,7 @@ textarea {
   min-height: 50px;
   height: auto;
   border-radius: 0;
+  padding: .25em .375em;
   max-width: 100%;
   -ms-touch-action: manipulation;
   touch-action: manipulation; }

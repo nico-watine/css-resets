@@ -1,25 +1,4 @@
 textarea {
-	padding: 0;
-	width: 100%;
-	border: 1px solid gray;
-	letter-spacing: inherit; // [Opinionated] Add typography inheritance in all browsers
-	font-family: inherit; // [Opinionated] Add typography inheritance in all browsers
-	font-size: inherit; // [Opinionated] Add typography inheritance in all browsers
-	font-weight: inherit; // [Opinionated] Add typography inheritance in all browsers
-	color: inherit; // [Opinionated] Add typography inheritance in all browsers
-	font-size: 1em;
-	white-space: normal;
-	height: auto; // Restrict sizing to the page width in all browsers (opinionated).
-
-	background-color: transparent; /* 1 */ // 1. Change the inconsistent appearance in all browsers (opinionated).
-	border: 1px solid WindowFrame; /* 1 */ // 1. Change the inconsistent appearance in all browsers (opinionated).
-	color: inherit; /* 1 */ // 1. Change the inconsistent appearance in all browsers (opinionated).
-	font: inherit; /* 2 */ // 2.
-	letter-spacing: inherit; /* 2 */ // 2. Add typography inheritance in all browsers (opinionated).
-
-}
-
-textarea {
 	font-family: inherit;
 	font-size: 100%;
 	line-height: 1.15;
