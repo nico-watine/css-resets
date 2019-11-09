@@ -16,51 +16,9 @@ textarea {
 	color: inherit; /* 1 */ // 1. Change the inconsistent appearance in all browsers (opinionated).
 	font: inherit; /* 2 */ // 2.
 	letter-spacing: inherit; /* 2 */ // 2. Add typography inheritance in all browsers (opinionated).
-	padding: .25em .375em; /* 1 */ // 1. Change the inconsistent appearance in all browsers (opinionated).
 
-	-ms-touch-action: manipulation; /* 1 */ // Remove the tapping delay in IE 10.
-	    touch-action: manipulation; /* 2 */ // Remove the tapping delay on clickable elements in all browsers (opinionated).
 }
 
-// normalize
-textarea {
-	font-family: inherit; /* 1 */ // Change the font styles in all browsers.
-	font-size: 100%; /* 1 */ // Change the font styles in all browsers.
-	line-height: 1.15; /* 1 */ // Change the font styles in all browsers.
-}
-
-// meyerreset
-textarea {
-	vertical-align: top; // Improve readability and alignment in all browsers.
-	font-size: 100%; /* 1 */ // Correct font size not being inherited in all browsers.
-	vertical-align: baseline; /* 3 */ // Improve appearance and consistency in all browsers.
-	color: #222;
-}
-
-// destyle
-/**
- * Reset form fields to make them styleable
- * 1. Reset radio and checkbox to preserve their look in iOS.
- */
-
-button,
-input,
-optgroup,
-select,
-textarea {
-	-webkit-appearance: none;
-	        appearance: none;
-	vertical-align: middle;
-	color: inherit;
-	font: inherit;
-	border: inherit;
-	background: transparent;
-	padding: 0;
-	outline: 0;
-	text-align: inherit;
-}
-
-// foundation
 textarea {
 	font-family: inherit;
 	font-size: 100%;
@@ -71,5 +29,8 @@ textarea {
 	min-height: 50px; // [Opinionated]
 	height: auto;
 	border-radius: 0;
+	padding: .25em .375em; // [Opinionated] Change the inconsistent appearance in all browsers
 	max-width: 100%; // [Opinionated] Restrict sizing to the page width in all browsers
+	-ms-touch-action: manipulation;// [Opinionated] Remove the tapping delay in IE 10.
+	    touch-action: manipulation;// [Opinionated] Remove the tapping delay on clickable elements in all browsers
 }
