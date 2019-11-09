@@ -1,15 +1,12 @@
 textarea {
-	color: inherit;
-	font: inherit;
-	letter-spacing: inherit;
-	margin: 0; // Webkit browsers add a 2px margin outside the chrome of form elements
 	padding: 0;
 	width: 100%;
 	border: 1px solid gray;
-	font-family: inherit;
-	font-size: inherit;
-	font-weight: inherit;
-	font: inherit;
+	letter-spacing: inherit; // [Opinionated] Add typography inheritance in all browsers
+	font-family: inherit; // [Opinionated] Add typography inheritance in all browsers
+	font-size: inherit; // [Opinionated] Add typography inheritance in all browsers
+	font-weight: inherit; // [Opinionated] Add typography inheritance in all browsers
+	color: inherit; // [Opinionated] Add typography inheritance in all browsers
 	font-size: 1em;
 	white-space: normal;
 	height: auto; // Restrict sizing to the page width in all browsers (opinionated).
@@ -18,16 +15,10 @@ textarea {
 	background-color: transparent; /* 1 */ // 1. Change the inconsistent appearance in all browsers (opinionated).
 	border: 1px solid WindowFrame; /* 1 */ // 1. Change the inconsistent appearance in all browsers (opinionated).
 	color: inherit; /* 1 */ // 1. Change the inconsistent appearance in all browsers (opinionated).
-	font: inherit; /* 2 */ // 2. Add typography inheritance in all browsers (opinionated).
+	font: inherit; /* 2 */ // 2.
 	letter-spacing: inherit; /* 2 */ // 2. Add typography inheritance in all browsers (opinionated).
 	padding: .25em .375em; /* 1 */ // 1. Change the inconsistent appearance in all browsers (opinionated).
 
-	margin: 0; /* 1 */ // Remove the margin in Firefox and Safari.
-	overflow: auto; /* 2 */ // Remove the default vertical scrollbar in IE.
-	resize: vertical; /* 3 */ // Change the resize direction in all browsers (opinionated).
-
-	margin: 0; /* 1 */ // Remove the margin in Firefox and Safari.
-	overflow: auto; /* 2 */ // Remove the default vertical scrollbar in IE.
 	resize: vertical; /* 3 */ // Change the resize direction in all browsers (opinionated).
 
 	-ms-touch-action: manipulation; /* 1 */ // Remove the tapping delay in IE 10.
@@ -36,20 +27,16 @@ textarea {
 
 // normalize
 textarea {
-	overflow: auto; // Remove the default vertical scrollbar in IE 10+.
 	font-family: inherit; /* 1 */ // Change the font styles in all browsers.
 	font-size: 100%; /* 1 */ // Change the font styles in all browsers.
 	line-height: 1.15; /* 1 */ // Change the font styles in all browsers.
-	margin: 0; /* 2 */ // Remove the margin in Firefox and Safari.
 }
 
 // meyerreset
 textarea {
-	overflow: auto; // Remove default vertical scrollbar in IE 6/7/8/9.
 	vertical-align: top; // Improve readability and alignment in all browsers.
 	resize: vertical; // Allow only vertical resizing of textareas.
 	font-size: 100%; /* 1 */ // Correct font size not being inherited in all browsers.
-	margin: 0; /* 2 */ // Address margins set differently in IE 6/7, Firefox 3+, Safari 5, and Chrome.
 	vertical-align: baseline; /* 3 */ // Improve appearance and consistency in all browsers.
 	color: #222;
 	resize: vertical;
@@ -74,18 +61,14 @@ textarea {
 	border: inherit;
 	background: transparent;
 	padding: 0;
-	margin: 0;
 	outline: 0;
 	border-radius: 0;
 	text-align: inherit;
-	overflow: auto; // Remove the default vertical scrollbar in IE 10+.
 }
 
 // bootstrap-reboot
 textarea {
-	overflow: auto;
 	resize: vertical;
-	margin: 0;
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
@@ -96,8 +79,8 @@ textarea {
 	font-family: inherit;
 	font-size: 100%;
 	line-height: 1.15;
-	margin: 0;
-	overflow: auto;
+	margin: 0; // [Normalize] Remove the margin in Firefox and Safari.
+	overflow: auto; // [Normalize] Remove the default vertical scrollbar in IE 10+.
 	height: auto;
 	min-height: 50px;
 	border-radius: 0;
