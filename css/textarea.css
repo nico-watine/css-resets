@@ -1,5 +1,4 @@
 textarea {
-  margin: 0;
   padding: 0;
   width: 100%;
   border: 1px solid gray;
@@ -11,7 +10,6 @@ textarea {
   font-size: 1em;
   white-space: normal;
   height: auto;
-  max-width: 100%;
   background-color: transparent;
   /* 1 */
   border: 1px solid WindowFrame;
@@ -24,14 +22,6 @@ textarea {
   /* 2 */
   padding: .25em .375em;
   /* 1 */
-  margin: 0;
-  /* 1 */
-  resize: vertical;
-  /* 3 */
-  margin: 0;
-  /* 1 */
-  resize: vertical;
-  /* 3 */
   -ms-touch-action: manipulation;
   /* 1 */
   touch-action: manipulation;
@@ -43,21 +33,15 @@ textarea {
   font-size: 100%;
   /* 1 */
   line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */ }
+  /* 1 */ }
 
 textarea {
   vertical-align: top;
-  resize: vertical;
   font-size: 100%;
   /* 1 */
-  margin: 0;
-  /* 2 */
   vertical-align: baseline;
   /* 3 */
-  color: #222;
-  resize: vertical; }
+  color: #222; }
 
 /**
  * Reset form fields to make them styleable
@@ -76,17 +60,8 @@ textarea {
   border: inherit;
   background: transparent;
   padding: 0;
-  margin: 0;
   outline: 0;
-  border-radius: 0;
   text-align: inherit; }
-
-textarea {
-  resize: vertical;
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit; }
 
 textarea {
   font-family: inherit;
@@ -94,8 +69,8 @@ textarea {
   line-height: 1.15;
   margin: 0;
   overflow: auto;
-  height: auto;
+  resize: vertical;
   min-height: 50px;
+  height: auto;
   border-radius: 0;
-  font-family: inherit;
   max-width: 100%; }

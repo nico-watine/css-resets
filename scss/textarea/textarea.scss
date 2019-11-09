@@ -10,7 +10,6 @@ textarea {
 	font-size: 1em;
 	white-space: normal;
 	height: auto; // Restrict sizing to the page width in all browsers (opinionated).
-	max-width: 100%; // Restrict sizing to the page width in all browsers (opinionated).
 
 	background-color: transparent; /* 1 */ // 1. Change the inconsistent appearance in all browsers (opinionated).
 	border: 1px solid WindowFrame; /* 1 */ // 1. Change the inconsistent appearance in all browsers (opinionated).
@@ -18,8 +17,6 @@ textarea {
 	font: inherit; /* 2 */ // 2.
 	letter-spacing: inherit; /* 2 */ // 2. Add typography inheritance in all browsers (opinionated).
 	padding: .25em .375em; /* 1 */ // 1. Change the inconsistent appearance in all browsers (opinionated).
-
-	resize: vertical; /* 3 */ // Change the resize direction in all browsers (opinionated).
 
 	-ms-touch-action: manipulation; /* 1 */ // Remove the tapping delay in IE 10.
 	    touch-action: manipulation; /* 2 */ // Remove the tapping delay on clickable elements in all browsers (opinionated).
@@ -35,11 +32,9 @@ textarea {
 // meyerreset
 textarea {
 	vertical-align: top; // Improve readability and alignment in all browsers.
-	resize: vertical; // Allow only vertical resizing of textareas.
 	font-size: 100%; /* 1 */ // Correct font size not being inherited in all browsers.
 	vertical-align: baseline; /* 3 */ // Improve appearance and consistency in all browsers.
 	color: #222;
-	resize: vertical;
 }
 
 // destyle
@@ -62,16 +57,7 @@ textarea {
 	background: transparent;
 	padding: 0;
 	outline: 0;
-	border-radius: 0;
 	text-align: inherit;
-}
-
-// bootstrap-reboot
-textarea {
-	resize: vertical;
-	font-family: inherit;
-	font-size: inherit;
-	line-height: inherit;
 }
 
 // foundation
@@ -81,9 +67,9 @@ textarea {
 	line-height: 1.15;
 	margin: 0; // [Normalize] Remove the margin in Firefox and Safari.
 	overflow: auto; // [Normalize] Remove the default vertical scrollbar in IE 10+.
+	resize: vertical; // [Opinionated] Allow only vertical resizing of textareas.
+	min-height: 50px; // [Opinionated]
 	height: auto;
-	min-height: 50px;
 	border-radius: 0;
-	font-family: inherit;
-	max-width: 100%;
+	max-width: 100%; // [Opinionated] Restrict sizing to the page width in all browsers
 }
