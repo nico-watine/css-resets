@@ -1,8 +1,3 @@
-h1 {
-	font-size: 2em; // [normalize] Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Edge, Firefox, and Safari.
-	margin: .67em 0; // [normalize]
-}
-
 h1,
 h2,
 h3,
@@ -12,16 +7,8 @@ h6 {
 	padding: 0; // [Opinionated]
 	margin-top: 0; // [Opinionated]
 	margin-bottom: .5rem; // [Opinionated]
+}
 
-	// Choose 1 of the following for `font-weight` :: ---------------
-	font-weight: bold; // Standardize the headings to the default bold for all browsers
-	// font-weight: normal; // [Opinionated] Reset all headings to normal font-weight
-
-
-	// Customize following styles as needed -----------------
-	font-size: inherit; // Inherit from `html` styles
-	color: inherit; // Inherit from `body` styles
-	font-family: inherit; // Inherit from `body` styles
-	line-height: 1.2; // [Opinionated]
-	text-rendering: optimizeLegibility; // [Opinionated]
+h1 {
+	font-size: 2em; // [normalize] Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Edge, Firefox, and Safari.
 }
