@@ -10,6 +10,6 @@ textarea {
 	border-radius: 0;
 	padding: .25em .375em; // [Opinionated] Change the inconsistent appearance in all browsers
 	max-width: 100%; // [Opinionated] Restrict sizing to the page width in all browsers
-	-ms-touch-action: manipulation;// [Opinionated] Remove the tapping delay in IE 10.
-	    touch-action: manipulation;// [Opinionated] Remove the tapping delay on clickable elements in all browsers
+	-ms-touch-action: manipulation; // [Opinionated] Remove the tapping delay in IE 10.
+	    touch-action: manipulation; // [Opinionated] Remove the tapping delay on clickable elements in all browsers
 }
