@@ -30,6 +30,8 @@ code {
 	color: #000; // [Opinionated]
 }
 
+// Per recommendation of CSS wizard Chris Coyier, wrap your <code> tag inside <pre>
+// https://mediatemple.net/blog/tips/considerations-for-styling-the-pre-tag/
 pre code {
 	display: block;
 	font-size: 16px; // [Opinionated] - Ensure `font-size` is 16px, regardless of root size
