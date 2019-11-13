@@ -18,18 +18,6 @@ pre {
 	border-radius: 4px; // [Opinionated]
 }
 
-pre code {
-	display: block;
-	font-size: 16px; // [Opinionated] - Ensure `font-size` is 16px, regardless of root size
-	line-height: 1.5; // [Opinionated]
-	padding: 16px; // [Opinionated] - Match `font-size`
-	max-width: 100%; // So <code> doesn't expand outside its <pre> wrapper
-	min-width: 100px; // [Opinionated] - so <code> has at least 100px to display its content
-	// `white-space` CSS property sets how white space inside an element is handled
-	white-space: pre-wrap; // [Opinionated] Sequences of white space are preserved. Lines are broken at newline characters, at <br>, and as necessary to fill line boxes.
-	background: none; // [Opinionated] Since <code> will be wrapped in <pre>, and <pre> already has a `background` set
-}
-
 code {
 	font-family: monospace, monospace; // [normalize] Correct the inheritance and scaling of font size in all browsers.
 	font-size: 90%; // [Opinionated] Make `font-size` slightly smaller than root since <code> will have some padding
@@ -40,4 +28,18 @@ code {
 	white-space: pre; // [Opinionated] Sequences of white space are preserved. Lines are only broken at newline characters in the source and at <br> elements.
 	background: #f7f7f9; // [Opinionated]
 	color: #000; // [Opinionated]
+}
+
+// Per recommendation of CSS wizard Chris Coyier, wrap your <code> tag inside <pre>
+// https://mediatemple.net/blog/tips/considerations-for-styling-the-pre-tag/
+pre code {
+	display: block;
+	font-size: 16px; // [Opinionated] - Ensure `font-size` is 16px, regardless of root size
+	line-height: 1.5; // [Opinionated]
+	padding: 16px; // [Opinionated] - Match `font-size`
+	max-width: 100%; // So <code> doesn't expand outside its <pre> wrapper
+	min-width: 100px; // [Opinionated] - so <code> has at least 100px to display its content
+	// `white-space` CSS property sets how white space inside an element is handled
+	white-space: pre-wrap; // [Opinionated] Sequences of white space are preserved. Lines are broken at newline characters, at <br>, and as necessary to fill line boxes.
+	background: none; // [Opinionated] Since <code> will be wrapped in <pre>, and <pre> already has a `background` set
 }
