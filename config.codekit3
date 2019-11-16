@@ -38,6 +38,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/_ignores/_hr.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_hr.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/_ignores/css-resets.sublime-project": {
 		"cB": 0,
 		"ft": 8192,
@@ -203,6 +216,16 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/reset-v1-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/reset-v2.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/reset-v2-min.css",
 		"oF": 0,
 		"oS": 3
 		},
