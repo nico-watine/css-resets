@@ -70,21 +70,6 @@ svg {
   overflow: hidden;
   vertical-align: middle; }
 
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-  overflow: auto;
-  resize: vertical;
-  min-height: 50px;
-  height: auto;
-  border-radius: 0;
-  padding: .25em .375em;
-  max-width: 100%;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation; }
-
 hr {
   box-sizing: content-box;
   height: 0;
