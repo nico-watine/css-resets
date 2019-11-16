@@ -91,9 +91,9 @@ textarea {
 	    touch-action: manipulation; // [Opinionated] Remove the tapping delay on clickable elements in all browsers
 }
 
-// [normalize] - Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 sub,
 sup {
+	// [normalize] - Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 	font-size: 75%;
 	line-height: 0;
 	position: relative;
@@ -101,10 +101,12 @@ sup {
 }
 
 sub {
+	// [normalize] - Prevent `sub` elements from affecting the line height in all browsers.
 	bottom: -.25em;
 }
 
 sup {
+	// [normalize] - Prevent `sup` elements from affecting the line height in all browsers.
 	top: -.5em;
 }
 
@@ -140,9 +142,10 @@ code {
 	color: #000; // [Opinionated]
 }
 
-// Per recommendation of CSS wizard Chris Coyier, wrap your <code> tag inside <pre>
-// https://mediatemple.net/blog/tips/considerations-for-styling-the-pre-tag/
 pre code {
+	// Per recommendation of CSS wizard Chris Coyier, wrap your <code> tag inside <pre>
+	// https://mediatemple.net/blog/tips/considerations-for-styling-the-pre-tag/
+
 	display: block;
 	font-size: 16px; // [Opinionated] - Ensure `font-size` is 16px, regardless of root size
 	line-height: 1.5; // [Opinionated]
@@ -161,11 +164,12 @@ hr {
 	clear: both; // [foundation] to ensure nothing is beside it when using clears on surrounding content
 	margin: 1em auto; // [h5bp] preferred 16/0 over [foundation] 20/0. [bootstrap] uses margin-top and margin-bottom
 	border: 0; // [h5bp & bootstrap] set the single-property border to zero, but then override it with a 1px bottom border w below line. [foundation] sets border to 0 via long hand (b-t/b-r/b-b/b-l)
-	border-bottom: 1px solid #cacaca; // [foundation] personally prefer the darker #cacaca of foundation to the (marginally) lighter #ccc of [h5bp]
+	border-bottom: 1px solid #cacaca; // [Opinionated] personally prefer the darker #cacaca of [foundation] to the (marginally) lighter #ccc of [h5bp]
 
-	// [boostrap] optionally can use this method which sets the color based on its background
+	// [Opinionated-Alt] optionally can use the [bootstrap] method which sets the color based on its background
 	// border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 
 address {
 	font-style: normal;
