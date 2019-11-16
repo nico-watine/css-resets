@@ -54,6 +54,14 @@ small {
 	line-height: inherit;
 }
 
+address {
+	font-style: normal;
+	font-weight: normal;
+	margin-bottom: 1rem;
+	padding: 0;
+	line-height: inherit;
+}
+
 img {
 	display: inline-block;
 	vertical-align: middle; // Remove the gap between images and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
@@ -63,11 +71,6 @@ img {
 	border-style: none; // Remove the border on images inside links in IE 10.
 }
 
-svg {
-	overflow: hidden; // Prevent drawing shapes outside of svg rectangle boundaries in IE9
-	vertical-align: middle; // Remove the gap between svg and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
-}
-
 video {
 	vertical-align: middle; // [h5bp-main-reset] Remove the gap between audio, canvas, iframes, images, videos and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
 	display: inline-block;
@@ -75,20 +78,22 @@ video {
 	height: auto;
 }
 
-textarea {
-	font-family: inherit;
-	font-size: 100%;
-	line-height: 1.15;
-	margin: 0; // [Normalize] Remove the margin in Firefox and Safari.
-	overflow: auto; // [Normalize] Remove the default vertical scrollbar in IE 10+.
-	resize: vertical; // [Opinionated] Allow only vertical resizing of textareas.
-	min-height: 50px; // [Opinionated]
-	height: auto;
-	border-radius: 0;
-	padding: .25em .375em; // [Opinionated] Change the inconsistent appearance in all browsers
-	max-width: 100%; // [Opinionated] Restrict sizing to the page width in all browsers
-	-ms-touch-action: manipulation; // [Opinionated] Remove the tapping delay in IE 10.
-	    touch-action: manipulation; // [Opinionated] Remove the tapping delay on clickable elements in all browsers
+svg {
+	overflow: hidden; // Prevent drawing shapes outside of svg rectangle boundaries in IE9
+	vertical-align: middle; // Remove the gap between svg and the bottom of their containers: https://github.com/h5bp/html5-boilerplate/issues/440
+}
+
+hr {
+	box-sizing: content-box; // [normalize] Add the correct box sizing in Firefox.
+	height: 0; // [normalize] Add the correct box sizing in Firefox.
+	overflow: visible; // [normalize] Show the overflow in Edge and IE.
+	clear: both; // [foundation] to ensure nothing is beside it when using clears on surrounding content
+	margin: 1em auto; // [h5bp] preferred 16/0 over [foundation] 20/0. [bootstrap] uses margin-top and margin-bottom
+	border: 0; // [h5bp & bootstrap] set the single-property border to zero, but then override it with a 1px bottom border w below line. [foundation] sets border to 0 via long hand (b-t/b-r/b-b/b-l)
+	border-bottom: 1px solid #cacaca; // [Opinionated] personally prefer the darker #cacaca of [foundation] to the (marginally) lighter #ccc of [h5bp]
+
+	// [Opinionated-Alt] optionally can use the [bootstrap] method which sets the color based on its background
+	// border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 sub,
@@ -155,26 +160,4 @@ pre code {
 	// `white-space` CSS property sets how white space inside an element is handled
 	white-space: pre-wrap; // [Opinionated] Sequences of white space are preserved. Lines are broken at newline characters, at <br>, and as necessary to fill line boxes.
 	background: none; // [Opinionated] Since <code> will be wrapped in <pre>, and <pre> already has a `background` set
-}
-
-hr {
-	box-sizing: content-box; // [normalize] Add the correct box sizing in Firefox.
-	height: 0; // [normalize] Add the correct box sizing in Firefox.
-	overflow: visible; // [normalize] Show the overflow in Edge and IE.
-	clear: both; // [foundation] to ensure nothing is beside it when using clears on surrounding content
-	margin: 1em auto; // [h5bp] preferred 16/0 over [foundation] 20/0. [bootstrap] uses margin-top and margin-bottom
-	border: 0; // [h5bp & bootstrap] set the single-property border to zero, but then override it with a 1px bottom border w below line. [foundation] sets border to 0 via long hand (b-t/b-r/b-b/b-l)
-	border-bottom: 1px solid #cacaca; // [Opinionated] personally prefer the darker #cacaca of [foundation] to the (marginally) lighter #ccc of [h5bp]
-
-	// [Opinionated-Alt] optionally can use the [bootstrap] method which sets the color based on its background
-	// border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-
-address {
-	font-style: normal;
-	font-weight: normal;
-	margin-bottom: 1rem;
-	padding: 0;
-	line-height: inherit;
 }
