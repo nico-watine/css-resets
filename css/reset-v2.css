@@ -45,6 +45,13 @@ small {
   font-size: 80%;
   line-height: inherit; }
 
+address {
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  padding: 0;
+  line-height: inherit; }
+
 img {
   display: inline-block;
   vertical-align: middle;
@@ -53,15 +60,15 @@ img {
   -ms-interpolation-mode: bicubic;
   border-style: none; }
 
-svg {
-  overflow: hidden;
-  vertical-align: middle; }
-
 video {
   vertical-align: middle;
   display: inline-block;
   max-width: 100%;
   height: auto; }
+
+svg {
+  overflow: hidden;
+  vertical-align: middle; }
 
 textarea {
   font-family: inherit;
@@ -77,6 +84,15 @@ textarea {
   max-width: 100%;
   -ms-touch-action: manipulation;
   touch-action: manipulation; }
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  clear: both;
+  margin: 1em auto;
+  border: 0;
+  border-bottom: 1px solid #cacaca; }
 
 sub,
 sup {
@@ -125,19 +141,3 @@ pre code {
   min-width: 100px;
   white-space: pre-wrap;
   background: none; }
-
-hr {
-  box-sizing: content-box;
-  height: 0;
-  overflow: visible;
-  clear: both;
-  margin: 1em auto;
-  border: 0;
-  border-bottom: 1px solid #cacaca; }
-
-address {
-  font-style: normal;
-  font-weight: normal;
-  margin-bottom: 1rem;
-  padding: 0;
-  line-height: inherit; }
