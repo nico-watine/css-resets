@@ -91,9 +91,9 @@ textarea {
 	    touch-action: manipulation; // [Opinionated] Remove the tapping delay on clickable elements in all browsers
 }
 
-// [normalize] - Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 sub,
 sup {
+	// [normalize] - Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 	font-size: 75%;
 	line-height: 0;
 	position: relative;
@@ -101,12 +101,15 @@ sup {
 }
 
 sub {
+	// [normalize] - Prevent `sub` elements from affecting the line height in all browsers.
 	bottom: -.25em;
 }
 
 sup {
+	// [normalize] - Prevent `sup` elements from affecting the line height in all browsers.
 	top: -.5em;
 }
+
 
 pre {
 	margin-top: 0;
