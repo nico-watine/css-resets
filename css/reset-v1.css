@@ -61,12 +61,12 @@ img {
   -ms-interpolation-mode: bicubic;
   border-style: none; }
 
-svg {
-  overflow: hidden;
-  vertical-align: middle; }
-
 video {
   vertical-align: middle;
   display: inline-block;
   max-width: 100%;
   height: auto; }
+
+svg {
+  overflow: hidden;
+  vertical-align: middle; }
