@@ -2,7 +2,7 @@ p {
 	padding: 0;
 	margin-top: 0; // [bootstrap-reboot]
 	margin-bottom: 1rem;
-	font-size: inherit;
+	font-size: 1rem;
 	line-height: 1.6; // [Opinionated]
 	text-rendering: optimizeLegibility; // [Opinionated] https://css-tricks.com/almanac/properties/t/text-rendering/ The browser emphasizes legibility over rendering speed and geometric precision. This enables the use of special kerning and optional ligature information that may be contained in the font file for certain fonts.
 }
