@@ -1,19 +1,28 @@
+html {
+	box-sizing: border-box;
+	font-size: 100%; }
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit; }
+
 body {
-  margin: 0;
-  padding: 0;
-  background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #0a0a0a;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+	margin: 0;
+	padding: 0;
+	background: #fefefe;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #0a0a0a;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale; }
 
 p {
-  margin-bottom: 1rem;
-  font-size: inherit;
-  line-height: 1.6;
-  text-rendering: optimizeLegibility; }
+	margin-bottom: 1rem;
+	font-size: inherit;
+	line-height: 1.6;
+	text-rendering: optimizeLegibility; }
 
 h1, .h1,
 h2, .h2,
@@ -21,19 +30,19 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  color: inherit;
-  text-rendering: optimizeLegibility; }
-  h1 small, .h1 small,
-  h2 small, .h2 small,
-  h3 small, .h3 small,
-  h4 small, .h4 small,
-  h5 small, .h5 small,
-  h6 small, .h6 small {
-    line-height: 0;
-    color: #8a8a8a; }
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: inherit;
+	text-rendering: optimizeLegibility; }
+	h1 small, .h1 small,
+	h2 small, .h2 small,
+	h3 small, .h3 small,
+	h4 small, .h4 small,
+	h5 small, .h5 small,
+	h6 small, .h6 small {
+		line-height: 0;
+		color: #8a8a8a; }
 
 
 
