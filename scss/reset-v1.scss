@@ -31,6 +31,15 @@ h1 {
 	font-size: 2em; // [normalize] Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Edge, Firefox, and Safari.
 }
 
+p {
+	padding: 0;
+	margin-top: 0; // [bootstrap-reboot]
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	line-height: 1.6; // [Opinionated]
+	text-rendering: optimizeLegibility; // [Opinionated] https://css-tricks.com/almanac/properties/t/text-rendering/ The browser emphasizes legibility over rendering speed and geometric precision. This enables the use of special kerning and optional ligature information that may be contained in the font file for certain fonts.
+}
+
 a {
 	color: #0000ee; // Specify to use the default <a> color from Chrome/FF/Safari so that a:visited/a:hover/a:active do not have a different color
 	background-color: transparent; // [normalize] Remove the gray background on active links in IE 10.
