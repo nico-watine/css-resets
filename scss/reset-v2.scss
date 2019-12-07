@@ -31,6 +31,15 @@ h1 {
 	font-size: 2em; // [normalize] Correct the font size and margin on `h1` elements within `section` and `article` contexts in Chrome, Edge, Firefox, and Safari.
 }
 
+p {
+	padding: 0;
+	margin-top: 0; // [bootstrap-reboot]
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	line-height: 1.5; // [Opinionated]
+	text-rendering: optimizeLegibility; // [Opinionated] https://css-tricks.com/almanac/properties/t/text-rendering/ The browser emphasizes legibility over rendering speed and geometric precision. This enables the use of special kerning and optional ligature information that may be contained in the font file for certain fonts.
+}
+
 a {
 	color: #0000ee; // Specify to use the default <a> color from Chrome/FF/Safari so that a:visited/a:hover/a:active do not have a different color
 	background-color: transparent; // [normalize] Remove the gray background on active links in IE 10.
@@ -90,10 +99,7 @@ hr {
 	clear: both; // [foundation] to ensure nothing is beside it when using clears on surrounding content
 	margin: 1em auto; // [h5bp] preferred 16/0 over [foundation] 20/0. [bootstrap] uses margin-top and margin-bottom
 	border: 0; // [h5bp & bootstrap] set the single-property border to zero, but then override it with a 1px bottom border w below line. [foundation] sets border to 0 via long hand (b-t/b-r/b-b/b-l)
-	border-bottom: 1px solid #cacaca; // [Opinionated] personally prefer the darker #cacaca of [foundation] to the (marginally) lighter #ccc of [h5bp]
-
-	// [Opinionated-Alt] optionally can use the [bootstrap] method which sets the color based on its background
-	// border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid #cacaca; // [Opinionated]
 }
 
 sub,
