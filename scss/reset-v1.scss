@@ -15,6 +15,8 @@ body {
 	margin: 0; // [normalize] Remove the margin in all browsers.
 	padding: 0;
 	background-color: #fff;
+	font-family: sans-serif; // [Opinionated]
+	color: #000; // [Opinionated] necessary for <h> to have color:inherit
 }
 
 h1,
@@ -25,6 +27,7 @@ h5,
 h6 {
 	padding: 0;
 	margin: 0;
+	color: inherit;
 }
 
 h1 {
@@ -35,9 +38,8 @@ p {
 	padding: 0;
 	margin-top: 0; // [bootstrap-reboot]
 	margin-bottom: 1rem;
-	font-size: 1rem;
-	line-height: 1.5; // [Opinionated]
-	text-rendering: optimizeLegibility; // [Opinionated] https://css-tricks.com/almanac/properties/t/text-rendering/ The browser emphasizes legibility over rendering speed and geometric precision. This enables the use of special kerning and optional ligature information that may be contained in the font file for certain fonts.
+	font-size: inherit;
+	line-height: 1.5; // [Opinionated] Because to inherit the 1.15 value set on <html> is too small
 }
 
 a {
